@@ -78,6 +78,7 @@ namespace Gentome
                 return "";
             }
             var info = Directory.CreateDirectory(AssetsOutputPath);
+            //todo 選択したフォルダだけ追加出来るようにする
             if (AllAssets)
             {
                 AssetTagetDirs.Clear();

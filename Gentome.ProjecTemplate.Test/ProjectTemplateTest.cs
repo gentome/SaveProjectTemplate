@@ -122,34 +122,7 @@ namespace Gentome.Test
             TarGz.Archive(creator.CachePath);
           
         }
-        // [Test]
-        // [Category("EndToEnd")]
-        // public void packageフォルダを作成してpackageJsonファイルを作ってAssetsとかを作る()
-        // {
-        //     //todo コピーするより先に作っといてそこに入れた方がいい
-        //     
-        //     
-        //
-        //     PackageFolderCreator packageFolderCreator = new PackageFolderCreator();
-        //     packageFolderCreator.Create();
-        //     PackageJsonCreator packageJsonCreator = new PackageJsonCreator();
-        //     string packagefilepath = packageJsonCreator.CreatePackageFile();
-        //     Extractor extractor = new Extractor();
-        //     string assetDirPaht = extractor.AssetsExtract();
-        //     string LibraryDirPath = extractor.LibraryExtract();
-        //     string PackageDirPath = extractor.PackagesExtract();
-        //     string ProjSettingsDirPath = extractor.ProjectSettingsExtract();
-        //     packageFolderCreator.AddDir(assetDirPaht);
-        //     packageFolderCreator.AddDir(LibraryDirPath);
-        //     packageFolderCreator.AddDir(PackageDirPath);
-        //     packageFolderCreator.AddDir(ProjSettingsDirPath);
-        //     packageFolderCreator.AddDir(packagefilepath);
-        //     
-        //     TarGz.TemplateName_Version = packageJsonCreator.TemplateName_Version;
-        //     TarGz.Archive(packageFolderCreator.DirPath);
-        // }
-
-
+        
         [OneTimeTearDown]
         public void OneTimeTearDown()
         {

@@ -26,7 +26,7 @@ namespace Gentome
         private void OnGUI()
         {
             
-            isAllAssets = EditorGUILayout.Toggle("AllAsset", isAllAssets);
+            isAllAssets = true;
             templateName = EditorGUILayout.TextField("Name:", templateName);
             templateDisplayName = EditorGUILayout.TextField("Display name:", templateDisplayName);
             templateVersion = EditorGUILayout.TextField("Version:", templateVersion);
@@ -62,6 +62,7 @@ namespace Gentome
                 {
                     Debug.LogError(e);
                 }
+                //todo 手動で圧縮する必要がある
                 // extractor.RemoveCache();
             }
         }
