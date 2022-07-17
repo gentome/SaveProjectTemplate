@@ -50,6 +50,11 @@ C:\Program Files\Unity\Hub\Editor\2021.3.6f1\Editor\Data\Resources\PackageManage
 UnityHubを再起動すればテンプレートが読み込めるはずです。
 
 
+
+
+
+
+
 圧縮ライブラリの
 https://github.com/adamhathcock/sharpcompress
 のプラグインを入れています
