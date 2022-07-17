@@ -57,9 +57,7 @@ UnityHubを再起動すればテンプレートが読み込めるはずです。
 
 
 
-
-
-
+## ライセンス
 
 圧縮ライブラリの
 https://github.com/adamhathcock/sharpcompress
