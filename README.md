@@ -49,6 +49,12 @@ C:\Program Files\Unity\Hub\Editor\2021.3.6f1\Editor\Data\Resources\PackageManage
 
 UnityHubを再起動すればテンプレートが読み込めるはずです。
 
+置いたあとはgentomecacheのフォルダを消す必要があります。
+
+## 問題
+
+圧縮まで自動でしたかったけど、文字化けしたりUnityHubで解凍できなかったりで断念した。
+
 
 
 
