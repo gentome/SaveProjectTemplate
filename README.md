@@ -45,7 +45,7 @@ com.gentome-1.0.0.tgz
 
 C:\Program Files\Unity\Hub\Editor\2021.3.6f1\Editor\Data\Resources\PackageManager\ProjectTemplates
 
-に置きます。パスはデフォルトのものです。
+に置きます。パスはデフォルトのものでUnityのバージョンによって変わります。
 
 UnityHubを再起動すればテンプレートが読み込めるはずです。
 
