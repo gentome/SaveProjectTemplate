@@ -1,5 +1,51 @@
 # SaveProjectTemplate
 
+ProjectTemplateを作るコードです。
+
+
+最低限の機能しかありません。
+
+dependencieの設定とかリポジトリの設定はできません。
+
+Assets以下のすべてのフォルダを保存します。
+
+
+## 使い方
+
+![image](https://user-images.githubusercontent.com/34824723/179381769-9acdf4b3-5cb3-4028-b07b-b407bf169c44.png)
+
+名前とバージョンとUnityのバージョンを設定してCreateTemplateボタンを押します
+
+プロジェクトフォルダ―直下にgentomecacheというフォルダが作られます。
+
+その中にpackageフォルダがあるので、tarアーカイブしてgzip圧縮します。
+
+圧縮したファイル名を 
+
+Name-version.tgz
+
+にします。
+
+例：
+
+Name　:　com.gentome
+
+version　:　1.0.0
+
+だとファイル名は
+
+com.gentome-1.0.0.tgz
+
+にする必要があります。
+
+作成したtgzファイルを
+
+C:\Program Files\Unity\Hub\Editor\2021.3.6f1\Editor\Data\Resources\PackageManager\ProjectTemplates
+
+に置きます。パスはデフォルトのものです。
+
+UnityHubを再起動すればテンプレートが読み込めるはずです。
+
 
 圧縮ライブラリの
 https://github.com/adamhathcock/sharpcompress
