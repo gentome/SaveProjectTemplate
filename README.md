@@ -20,6 +20,9 @@ Assets以下のすべてのフォルダを保存します。
 
 その中にpackageフォルダがあるので、tarアーカイブしてgzip圧縮します。
 
+![image](https://user-images.githubusercontent.com/34824723/179382020-5dfa2a02-9f2b-48b8-896f-b830acb5fd43.png)
+
+
 圧縮したファイル名を 
 
 Name-version.tgz
