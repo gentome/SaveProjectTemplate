@@ -4,6 +4,7 @@
 圧縮ライブラリの
 https://github.com/adamhathcock/sharpcompress
 のプラグインを入れています
+
 License Copyright (c) 2014  Adam Hathcock
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
